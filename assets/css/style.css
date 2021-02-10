@@ -41,7 +41,6 @@ body {
 /*-----------------------------Seasons card section---*/
 
 .img-box {
-    box-sizing: border-box;
     height: 100%;
     width: 100%;
 }
@@ -52,4 +51,8 @@ body {
     object-fit: cover;
     display: block;
     float: left;
+}
+
+#spring-text-box {
+    display: none;
 }

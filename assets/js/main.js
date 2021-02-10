@@ -1,5 +1,4 @@
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#spring").toggle();
-  });
-});
+function toggleSpring(){
+    var spring = getElementById("spring-text-box");
+    Element.classList.toggle("#spring-text-box");
+}
