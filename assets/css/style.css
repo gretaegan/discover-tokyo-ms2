@@ -6,6 +6,8 @@ body {
     font-family: 'Open Sans',sans-serif;
 }
 
+/*-----------------------------Main page section---*/
+
 .hero-image {
     background: url("../images/tokyostreet.jpg");
     height: 80vh;
@@ -29,3 +31,25 @@ body {
     text-align: center;
 }
 
+.hero-hdr {
+    font-family: 'Kalam',sans-serif;
+    font-size: 38px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*-----------------------------Seasons card section---*/
+
+.img-box {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.img-card {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    float: left;
+}
