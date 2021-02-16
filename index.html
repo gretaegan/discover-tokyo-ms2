@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/main.js"></script>
@@ -69,44 +69,85 @@
 <!----------------------------When to Visit and What to see Section -->
 
 <section id="seasons">
-
+    <div class="container">
+        <h1 class="seasons-hdg"> When to Visit? </h1>
+        <p class="seasons-par"> Wether you want to see the vibrant cherry blossoms of spring, or the bright lights in Winter, Tokyo has something to offer 
+            during every season. Not sure what time of year is right for you? Click the buttons below for more information!
+        </p>
+    </div>
+    <div class="container-fluid">
+        <div class="row no gutters">
+            <div class="col-sm-3">
+                <img src="assets/images/cherry-blossoms.jpg" alt="cherry blossoms" class="img-fluid img-card">
+                <div class="card-text-box">
+                    <button class="btn btn-info">Spring</button>
+                    <p id="spring-par">
+                        a text about springtime in tokyo will go here
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/ueno-summer.jpg" alt="summer" class="img-fluid img-card">
+                <div class="card-text-box">
+                    <button class="btn btn-info">Summer</button>
+                    <p id="summer-par">
+                        a text about summer in tokyo here
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/autumn-tokyo.jpg" alt="autumn" class="img-fluid img-card">
+                <div class="card-text-box">
+                    <button class="btn btn-info">Autumn</button>
+                    <p id="autumn-par">
+                        a text about autumn in tokyo here
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/winter-jp.jpg" alt="winter" class="img-fluid img-card">
+                <div class="card-text-box">
+                    <button class=" btn btn-info">Winter</button>
+                    <p id="winter-par">
+                        a text about winter in tokyo here
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="footer">
+<section>
+    <div class="container">
+        <div id="empty-space"></div>
+    </div>
+</section>
+
 <footer>
-    <ul>
-        <li>
+<div class="container">
+    <ul class="social-links">
+        <li class="social-links">
             <a href="http//:www.facebook.com" target="_blank"><i class="fas fa-facebook" aria-hidden="true"></i>
              <span class="sr-only">Facebook</span>
             </a>
         </li>
         <li>
-            <a href="http//:www.instagram.com" target="_blank"><i class="fas fa-instagram" aria-hidden="true"></i>
+            <a href="http//:www.instagram.com" target="_blank" class="social-links"><i class="fas fa-instagram" aria-hidden="true"></i>
              <span class="sr-only">Instagram</span>
             </a>
         </li>
         <li>
-            <a href="http//:www.youtube.com" target="_blank"><i class="fas fa-youtube" aria-hidden="true"></i>
+            <a href="http//:www.youtube.com" target="_blank" class="social-links"><i class="fas fa-youtube" aria-hidden="true"></i>
              <span class="sr-only">Youtube</span>
             </a>
         </li>
     </ul>
+</div>
 </footer>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
 </body>
 </html>

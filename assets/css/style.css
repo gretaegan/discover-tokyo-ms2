@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans:wght@300;400&display=swap');
 
 body {
-    font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans',sans-serif;
 }
+
 
 /*-----------------------------Main page section---*/
 
@@ -40,6 +41,20 @@ body {
 
 /*-----------------------------Seasons card section---*/
 
+.seasons-hdg {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Kalam', sans-serif;
+}
+
+.seasons-par {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
 .img-box {
     height: 100%;
     width: 100%;
@@ -53,6 +68,35 @@ body {
     float: left;
 }
 
-#spring-text-box {
+.card-text-box {
+    align-items: center;
+}
+
+#spring-par {
     display: none;
+}
+
+#summer-par {
+    display: none;
+}
+
+#autumn-par {
+    display: none;
+}
+
+#winter-par {
+    display: none;
+}
+
+/*------------------------Footer------*/
+
+#empty-space {
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social-links li {
+    display: inline-block;
 }
