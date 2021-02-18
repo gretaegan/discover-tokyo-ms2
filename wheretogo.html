@@ -60,6 +60,18 @@
   </div>
    <div id="map"></div>
 </section>
+<script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+
+        zoom: 6,
+        center: {
+            lat: 35.67708742186613,
+            lng: 139.7745061146202
+        }
+        });
+    }
+</script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsJfQa0ismTDhS1OlN2pd0jud9Dy65zVE&callback=initMap&libraries=&v=weekly" async ></script>
 </body>

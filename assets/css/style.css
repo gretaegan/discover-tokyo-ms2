@@ -100,3 +100,9 @@ body {
 .social-links li {
     display: inline-block;
 }
+
+/*-------------------Google map-------*/
+
+div#map {
+    min-height: 360px;
+}
